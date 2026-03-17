@@ -1,5 +1,5 @@
 
 ## Dados Formatados no Arquivos
 
-No terminal rode o comando 
-bash executar.bash
+No terminal rodar o segunte comando: 
+#### bash executar.bash 
