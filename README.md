@@ -1,2 +1,5 @@
-# Informa-o-Pessoal
+# Informação-Pessoal
 Dados Formatados no Arquivos
+
+No terminal rode o comando 
+bash executar.bash
