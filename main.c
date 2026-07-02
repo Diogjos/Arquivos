@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "dados_pessoais.h"
+#include "armazenamento_dados.h"
 int main()
 {
-  dados_pessoais();
+  armazenamento_dados();
   return 0;
 }
 
