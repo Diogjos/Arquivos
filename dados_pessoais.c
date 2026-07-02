@@ -9,7 +9,7 @@ struct cadastro
 void dados_pessoais()
 {
   sleep(1);
-  printf("sessão de cadastro:\n");
+  printf("\a####Cadastro do Usuário####\n");
   struct cadastro c;
   FILE *arq;
   arq = fopen("arq.txt","wr");
@@ -18,7 +18,7 @@ void dados_pessoais()
      sleep(1);
      printf("error\n");
   }
-  sleep(1);
+  sleep(2);
   printf("Informe o nome:\n");
   fgets(c.nome,30,stdin);
   sleep(1);
@@ -27,8 +27,10 @@ void dados_pessoais()
   sleep(1);
   printf("Informe a idade:\n");
   scanf("%d",&c.idade);
-  sleep(1);
+  printf("\a");
+  sleep(2);
   fprintf(arq,"\nnome:%s\nrua:%s\nidade:%d\n",c.nome,c.rua,c.idade);
+  printf("\n\a\aUsuário Registrado!\n");
   getchar();
   fclose(arq);
 }
