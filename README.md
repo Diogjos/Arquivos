@@ -5,4 +5,4 @@
 
 1. Baixe o Arquivo
 2. Extraia na sua máquina
-3. Execute o programa (execute chmod +x main para tornar executavel)
+3. Execute o programa (execute chmod +x UserCad para tornar executavel)
